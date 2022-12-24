@@ -2,9 +2,79 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Application</title>
+    <link
+      rel="shortcut icon"
+      href="https://camo.githubusercontent.com/48d099290b4cb2d7937bcd96e8497cf1845b54a810a6432c70cf944b60b40c77/68747470733a2f2f7261776769742e636f6d2f676f72616e67616a69632f72656163742d69636f6e732f6d61737465722f72656163742d69636f6e732e737667"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./public/styles/style.css" />
   </head>
-  <body></body>
+  <body>
+    <div id="app">
+      <!-- BEM -->
+      <header class="header">
+        <div class="logo-wrapper">
+          <img
+            src="https://camo.githubusercontent.com/48d099290b4cb2d7937bcd96e8497cf1845b54a810a6432c70cf944b60b40c77/68747470733a2f2f7261776769742e636f6d2f676f72616e67616a69632f72656163742d69636f6e732f6d61737465722f72656163742d69636f6e732e737667"
+            alt="Something went wrong"
+            class="logo"
+          />
+        </div>
+
+        <div class="input-wrapper">
+          <input type="text" class="input" />
+        </div>
+
+        <nav class="nav">
+          <a href="#" class="nav__link">Catalog</a>
+          <a href="#" class="nav__link">Contacts</a>
+          <a href="#" class="nav__link">Login</a>
+        </nav>
+      </header>
+
+      <aside class="sidebar">
+        <section class="table">
+          <div class="table__row">
+            <div class="table__col">Samsung</div>
+            <div class="table__col">
+              <input type="checkbox" />
+            </div>
+          </div>
+
+          <div class="table__row">
+            <div class="table__col">Apple</div>
+            <div class="table__col">
+              <input type="checkbox" />
+            </div>
+          </div>
+
+          <div class="table__row">
+            <div class="table__col">Sony</div>
+            <div class="table__col">
+              <input type="checkbox" />
+            </div>
+          </div>
+
+          <div class="table__row">
+            <div class="table__col">Sony</div>
+            <div class="table__col">
+              <input type="radio" />
+            </div>
+          </div>
+
+          <div class="table__row">
+            <div class="table__col">Sony</div>
+            <div class="table__col">
+              <input type="range" />
+            </div>
+          </div>
+        </section>
+      </aside>
+
+      <main class="main"></main>
+      <footer class="footer"></footer>
+    </div>
+  </body>
 </html>

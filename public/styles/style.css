@@ -3,3 +3,50 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/* ul > a {
+    background-color: aqua;
+}
+
+ul > a {
+    background-color: aqua;
+} */
+
+/* li {
+    list-style-type: none;
+}
+
+ul {
+    padding: 13px;
+}
+
+.list-item {
+    background: darkcyan;
+    color: aliceblue;
+}
+
+.item {
+    background: linear-gradient(cyan , magenta);
+    font-size: 23px;
+    color : white;
+}
+
+#first-item {
+    color : whitesmoke;
+    font-size: 32px;
+}
+
+.item:first-child {
+    color : magenta;
+    font-size: 32px;
+}
+
+.item:nth-child(2) {
+    color : magenta;
+    font-size: 62px;
+}
+
+.item:last-child {
+    color : violet;
+    font-size: 32px;
+} */
